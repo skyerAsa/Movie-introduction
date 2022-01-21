@@ -1,0 +1,158 @@
+.leftbox {
+    height: 100%;
+    width: 50%;
+    background-image: url(../image/leftimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+.rightbox {
+    width: 50%;
+    /* height: 100%; */
+    margin-left: 50%;
+    background-image: url(../image/bg_dot.jpg);
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.movie {
+    padding: 10px 0 20px;
+}
+
+video {
+    width: 100%;
+}
+
+.pic {
+    background-image: url(../image/main_img.png);
+    width: 100%;
+    height: 200px;
+    padding-bottom: 10%;
+    background-repeat: no-repeat;
+    background-position: top;
+    /* animation: animal 4s infinite linear;
+    transform-origin: center center; */
+    animation: aaa 2s infinite linear;
+}
+
+@keyframes aaa {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    padding: 3px 0px 0px;
+    margin: auto;
+    background-color: rgb(202, 118, 202);
+    font-size: 20px;
+    color: white;
+    white-space: nowrap;
+}
+
+table tr td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.word {
+    width: 100%;
+    padding: 0 0 0 0;
+    font-size: small;
+}
+
+ul li {
+    width: 100%;
+    padding: 30px 0 10px 0;
+    line-height: 20px;
+}
+
+.asa img {
+    width: 100%;
+}
+
+.own th {
+    border: 1px solid #000;
+    background-color: rgb(202, 118, 202);
+    color: white;
+    margin: auto;
+    padding: 10px;
+}
+
+.own {
+    margin: auto;
+}
+
+.word2 {
+    font-size: small;
+}
+
+caption {
+    color: gray;
+    caption-side: bottom;
+    text-align: right;
+}
+
+.one {
+    text-align: center;
+    margin: auto;
+    height: 20px;
+    width: 100%;
+    background-color: blueviolet;
+    padding-top: 0px;
+}
+
+.box2 {
+    width: 60%;
+    height: 100%;
+    /* background-color: #000; */
+    margin: 5% 0% 0% 25%;
+}
+
+.word3 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: small;
+}
+
+ul {
+    padding: 0 0 0 0;
+}
+
+img {
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 1370px) {
+    .box {
+        display: block;
+    }
+    .leftbox {
+        position: relative;
+        display: block;
+        height: 500px;
+        width: 100%;
+    }
+    .rightbox {
+        width: 100%;
+        margin: auto;
+        padding-top: 0%;
+    }
+    .box2{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        padding: 0 0 0 0;
+    }
+}
